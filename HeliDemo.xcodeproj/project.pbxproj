@@ -21,6 +21,14 @@
 		189FE42F18B5ED71008449C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189FE41118B5ED71008449C9 /* UIKit.framework */; };
 		189FE43718B5ED71008449C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189FE43518B5ED71008449C9 /* InfoPlist.strings */; };
 		189FE43918B5ED71008449C9 /* HeliDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FE43818B5ED71008449C9 /* HeliDemoTests.m */; };
+		189FE44618B5EDA2008449C9 /* Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 189FE44218B5EDA2008449C9 /* Block.png */; };
+		189FE44718B5EDA2008449C9 /* HeliBackgd.png in Resources */ = {isa = PBXBuildFile; fileRef = 189FE44318B5EDA2008449C9 /* HeliBackgd.png */; };
+		189FE44818B5EDA2008449C9 /* HeliDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 189FE44418B5EDA2008449C9 /* HeliDown.png */; };
+		189FE44918B5EDA2008449C9 /* HeliUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 189FE44518B5EDA2008449C9 /* HeliUp.png */; };
+		18A7B4D218B64E72001795B1 /* BlockBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A7B4D118B64E72001795B1 /* BlockBig.png */; };
+		18A7B4D418B73A52001795B1 /* HeliBlast.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A7B4D318B73A52001795B1 /* HeliBlast.png */; };
+		18A7B4D618B74671001795B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A7B4D518B74671001795B1 /* AudioToolbox.framework */; };
+		18A7B4D818B74678001795B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A7B4D718B74678001795B1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,14 @@
 		189FE43418B5ED71008449C9 /* HeliDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeliDemoTests-Info.plist"; sourceTree = "<group>"; };
 		189FE43618B5ED71008449C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		189FE43818B5ED71008449C9 /* HeliDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeliDemoTests.m; sourceTree = "<group>"; };
+		189FE44218B5EDA2008449C9 /* Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Block.png; sourceTree = "<group>"; };
+		189FE44318B5EDA2008449C9 /* HeliBackgd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliBackgd.png; sourceTree = "<group>"; };
+		189FE44418B5EDA2008449C9 /* HeliDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliDown.png; sourceTree = "<group>"; };
+		189FE44518B5EDA2008449C9 /* HeliUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliUp.png; sourceTree = "<group>"; };
+		18A7B4D118B64E72001795B1 /* BlockBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlockBig.png; sourceTree = "<group>"; };
+		18A7B4D318B73A52001795B1 /* HeliBlast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeliBlast.png; sourceTree = "<group>"; };
+		18A7B4D518B74671001795B1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18A7B4D718B74678001795B1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A7B4D818B74678001795B1 /* AVFoundation.framework in Frameworks */,
+				18A7B4D618B74671001795B1 /* AudioToolbox.framework in Frameworks */,
 				189FE41018B5ED71008449C9 /* CoreGraphics.framework in Frameworks */,
 				189FE41218B5ED71008449C9 /* UIKit.framework in Frameworks */,
 				189FE40E18B5ED71008449C9 /* Foundation.framework in Frameworks */,
@@ -101,6 +119,8 @@
 		189FE40C18B5ED71008449C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18A7B4D718B74678001795B1 /* AVFoundation.framework */,
+				18A7B4D518B74671001795B1 /* AudioToolbox.framework */,
 				189FE40D18B5ED71008449C9 /* Foundation.framework */,
 				189FE40F18B5ED71008449C9 /* CoreGraphics.framework */,
 				189FE41118B5ED71008449C9 /* UIKit.framework */,
@@ -127,6 +147,12 @@
 			isa = PBXGroup;
 			children = (
 				189FE41518B5ED71008449C9 /* HeliDemo-Info.plist */,
+				189FE44218B5EDA2008449C9 /* Block.png */,
+				18A7B4D118B64E72001795B1 /* BlockBig.png */,
+				18A7B4D318B73A52001795B1 /* HeliBlast.png */,
+				189FE44318B5EDA2008449C9 /* HeliBackgd.png */,
+				189FE44418B5EDA2008449C9 /* HeliDown.png */,
+				189FE44518B5EDA2008449C9 /* HeliUp.png */,
 				189FE41618B5ED71008449C9 /* InfoPlist.strings */,
 				189FE41918B5ED71008449C9 /* main.m */,
 				189FE41B18B5ED71008449C9 /* HeliDemo-Prefix.pch */,
@@ -196,9 +222,12 @@
 		189FE40218B5ED71008449C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Avikant;
 				TargetAttributes = {
+					189FE40918B5ED71008449C9 = {
+						DevelopmentTeam = HN3SCP8A52;
+					};
 					189FE42A18B5ED71008449C9 = {
 						TestTargetID = 189FE40918B5ED71008449C9;
 					};
@@ -228,9 +257,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189FE44718B5EDA2008449C9 /* HeliBackgd.png in Resources */,
+				189FE44818B5EDA2008449C9 /* HeliDown.png in Resources */,
 				189FE42618B5ED71008449C9 /* Images.xcassets in Resources */,
+				18A7B4D418B73A52001795B1 /* HeliBlast.png in Resources */,
+				189FE44918B5EDA2008449C9 /* HeliUp.png in Resources */,
+				18A7B4D218B64E72001795B1 /* BlockBig.png in Resources */,
 				189FE41818B5ED71008449C9 /* InfoPlist.strings in Resources */,
 				189FE42118B5ED71008449C9 /* Main.storyboard in Resources */,
+				189FE44618B5EDA2008449C9 /* Block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +340,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +378,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -378,10 +411,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeliDemo/HeliDemo-Prefix.pch";
 				INFOPLIST_FILE = "HeliDemo/HeliDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +427,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeliDemo/HeliDemo-Prefix.pch";
 				INFOPLIST_FILE = "HeliDemo/HeliDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,7 +441,6 @@
 		189FE44018B5ED71008449C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeliDemo.app/HeliDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +463,6 @@
 		189FE44118B5ED71008449C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeliDemo.app/HeliDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +497,7 @@
 				189FE43E18B5ED71008449C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189FE43F18B5ED71008449C9 /* Build configuration list for PBXNativeTarget "HeliDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +506,7 @@
 				189FE44118B5ED71008449C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
